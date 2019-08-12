@@ -1,0 +1,13 @@
+{
+    "name": "Prasad-bot",
+    "version": "1.0.0",
+    "description": "This is a simple test and experiment bot",
+    "main": "Prasad-bot.js",
+    "author": "Prasad",
+    "scripts": {
+        "start": "node Prasadbot.js"
+    },
+    "dependencies": {
+	"discord.js" : "11.2.1"
+	}
+}
