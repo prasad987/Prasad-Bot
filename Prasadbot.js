@@ -18,6 +18,15 @@ bot.on('message', message =>{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
             }
         }
+        {
+        if(msg.startsWith('>', 1)){
+            if(msg === prefix + "hi" && message.channel.id === "596210004277592066"){
+                message.channel.send('hello!!!!!') // Sends a message to the channel, with the content
+            }
+            else{
+                message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
+            }
+        }
         else{
             message.delete();
             message.channel.send(sender + " this bot only accepts commands which starts with '>' dot.");
